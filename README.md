@@ -97,6 +97,20 @@ jupyter lab
 
 Se abrirá una pestaña en tu navegador web. Abre el archivo `1_analisis_sentimiento.ipynb` y ejecuta las celdas secuencialmente para ver el proceso y replicar los resultados del entrenamiento.
 
+También se incluye una versión reproducible desde la terminal, con limpieza de HTML,
+división estratificada, TF-IDF, SVM lineal y generación automática de métricas:
+
+```bash
+python sentiment_analysis.py
+```
+
+Los resultados se guardan en `results/metrics.json` y
+`results/confusion_matrix.png`. Para entrenar con las 50,000 reseñas:
+
+```bash
+python sentiment_analysis.py --samples-per-class 25000
+```
+
 ---
 
 ## 📄 Licencia

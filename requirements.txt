@@ -4,3 +4,4 @@ seaborn
 numpy
 jupyterlab
 scikit-learn
+beautifulsoup4
