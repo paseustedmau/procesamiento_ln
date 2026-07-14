@@ -1,0 +1,34 @@
+{
+  "dataset_size": 10000,
+  "train_size": 8000,
+  "test_size": 2000,
+  "accuracy": 0.879,
+  "f1_macro": 0.8789762793507527,
+  "classification_report": {
+    "negative": {
+      "precision": 0.8899176954732511,
+      "recall": 0.865,
+      "f1-score": 0.8772819472616633,
+      "support": 1000.0
+    },
+    "positive": {
+      "precision": 0.8686770428015564,
+      "recall": 0.893,
+      "f1-score": 0.8806706114398422,
+      "support": 1000.0
+    },
+    "accuracy": 0.879,
+    "macro avg": {
+      "precision": 0.8792973691374038,
+      "recall": 0.879,
+      "f1-score": 0.8789762793507527,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.8792973691374039,
+      "recall": 0.879,
+      "f1-score": 0.8789762793507527,
+      "support": 2000.0
+    }
+  }
+}
